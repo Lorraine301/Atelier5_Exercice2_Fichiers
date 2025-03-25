@@ -1,0 +1,86 @@
+/* Style général */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* En-tête */
+h2, h3 {
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Formulaire */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+/* Input file */
+input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Bouton */
+button {
+    background-color: #49698b;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Liste des fichiers */
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+li {
+    background: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+}
+
+li:hover {
+    background-color: #eaf4ff;
+    transform: scale(1.02);
+}
+
+/* Liens des fichiers */
+li a {
+    text-decoration: none;
+    color: #384189;
+    font-weight: bold;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
