@@ -63,7 +63,7 @@ Cet exercice permet de créer une application simple permettant de télécharger
   - `filename` (nom du fichier à supprimer)
 
 ## Captures d'écran
-Voici les interfaces utilisateur pour illustrer l'application:
+Voici l'interface utilisateur pour illustrer l'application:
 ![Aperçu de l'interface](images/interface.png)
 
 
